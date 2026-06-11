@@ -1,0 +1,56 @@
+h1 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.tabela-livros {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.tabela-livros thead {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.tabela-livros th,
+.tabela-livros td {
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabela-livros tbody tr:nth-child(even) {
+  background-color: #f4f4f4;
+}
+
+/* Área do título + botão */
+.titulo-acoes {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* Botão excluir igual ao exemplo (vermelho pequeno) */
+.btn-excluir {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 3px;
+  width: fit-content;
+}
+
+.btn-excluir:hover {
+  background-color: #c0392b;
+}
+
+/* Lista de autores estilo bullet */
+ul {
+  margin: 0;
+  padding-left: 18px;
+}
